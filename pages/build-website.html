@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Sitio en Construcción</title>
+    <style>
+        body {
+            display: flex;
+            height: 100vh;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            margin: 0;
+        }
+
+        .construction-message {
+            font-size: 32px;
+            font-weight: bold;
+            color: #fff;
+            border: 2px dashed #fff;
+            padding: 20px;
+            outline: none; /* Quita el contorno al enfocar */
+            background-color: #1a1a1a;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+            transition: transform 0.3s ease-in-out;
+            cursor: pointer;
+        }
+
+        .construction-message:focus {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+
+<body>
+    <div tabindex="0" class="construction-message" autofocus>
+        Sitio en Construcción
+    </div>
+</body>
+
+</html>

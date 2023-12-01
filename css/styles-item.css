@@ -1,8 +1,8 @@
 @charset "UTF-8";
 /*!
-* Start Bootstrap - Shop Homepage v5.0.6 (https://startbootstrap.com/template/shop-homepage)
+* Start Bootstrap - Shop Item v5.0.6 (https://startbootstrap.com/template/shop-item)
 * Copyright 2013-2023 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-shop-homepage/blob/master/LICENSE)
+* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-shop-item/blob/master/LICENSE)
 */
 /*!
  * Bootstrap  v5.2.3 (https://getbootstrap.com/)
@@ -8160,10 +8160,8 @@ textarea.form-control-lg {
 }
 
 .bg-dark {
-  --bs-bg-opacity: 0.9;
-  /*background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;*/
-  background: url(../assets/fondo-popayan.jpg) center/cover no-repeat;
-  opacity: var(--bs-bg-opacity);
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
 }
 
 .bg-black {
